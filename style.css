@@ -12,17 +12,12 @@ body {
     text-align: right;
 }
 
-.matrix img {
+.matrix__img {
     width: 100%;
 }
 
 .matrix__inf {
     font-family: fantasy, cursive;
-}
-
-@media (max-width:768px) {
-.matrix { text-align: center;
-}
 }
 
 .main-page {
@@ -169,4 +164,11 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
     display:none;
+}
+
+@media (max-width:768px) {
+
+    .matrix { text-align: center;
+    }
+    
 }
